@@ -1,0 +1,127 @@
+{
+  "enquiries": [
+    {
+      "EssentialDetails": {
+        "FirstName": "John",
+        "MiddleName": "Doe",
+        "LastName": "Smith",
+        "EmailId": "john.doe@example.com",
+        "MobileNo": "1234567890",
+        "CountryCode": "+1",
+        "Nationality": "USA",
+        "CurrentCountry": "USA",
+        "Gender": "Male",
+        "DateOfBirth": "1990-01-15",
+        "DestinationCountry": "Canada",
+        "VisaType": "Work Visa",
+        "EnquiryMessage": "I'm interested in applying for a visa.",
+        "EnquirySource": 1
+      },
+      "MetaData": {
+        "IsDependentIncluded": true,
+        "TotalDependents": 2,
+        "ApplicationStatus": 0,
+        "CurrentVisaType": "Work Visa",
+        "VisaExpiryDate": "2024-12-31",
+        "CurrentImmigrationStatus": {
+          "CitizenshipCountry": "USA"
+        },
+        "Education": [
+          {
+            "DegreeLevel": "Bachelor's",
+            "InstituteName": "University of XYZ",
+            "Country": "USA",
+            "YearOfCompletion": "2015"
+          },
+          {
+            "DegreeLevel": "Master's",
+            "InstituteName": "University of ABC",
+            "Country": "Canada",
+            "YearOfCompletion": "2020"
+          }
+        ],
+        "EnglishScores": [
+          {
+            "ExamName": "IELTS",
+            "ExamDate": "2022-05-20",
+            "ListeningScore": "8.0",
+            "ReadingScore": "7.5",
+            "WritingScore": "7.0",
+            "SpeakingScore": "8.5",
+            "OverallScore": "8.0"
+          }
+        ],
+        "IsWorkExp": true,
+        "WorkExperience": [
+          {
+            "JobType": "Software Engineer",
+            "CompanyName": "TechCorp Inc.",
+            "Designation": "Senior Software Engineer",
+            "Location": "San Francisco, USA",
+            "StartDate": "2018-01-15",
+            "EndDate": "2022-03-30",
+            "CurrentlyWorkingHere": false
+          },
+          {
+            "JobType": "Data Analyst",
+            "CompanyName": "DataCo Ltd.",
+            "Designation": "Data Analyst",
+            "Location": "Toronto, Canada",
+            "StartDate": "2022-04-15",
+            "EndDate": null,
+            "CurrentlyWorkingHere": true
+          }
+        ]
+      }
+    },
+    {
+      "EssentialDetails": {
+        "FirstName": "Alice",
+        "MiddleName": "Marie",
+        "LastName": "Johnson",
+        "EmailId": "alice.johnson@example.com",
+        "MobileNo": "9876543210",
+        "CountryCode": "+1",
+        "Nationality": "Canada",
+        "CurrentCountry": "Canada",
+        "Gender": "Female",
+        "DateOfBirth": "1988-08-25",
+        "DestinationCountry": "Australia",
+        "VisaType": "Student Visa",
+        "EnquiryMessage": "I want to study in Australia.",
+        "EnquirySource": 2
+      },
+      "MetaData": {
+        "IsDependentIncluded": false,
+        "TotalDependents": 0,
+        "ApplicationStatus": 1,
+        "CurrentVisaType": "Student Visa",
+        "VisaExpiryDate": "2023-12-31",
+        "CurrentImmigrationStatus": {
+          "CitizenshipCountry": "Canada"
+        },
+        "Education": [
+          {
+            "DegreeLevel": "Bachelor's",
+            "InstituteName": "University of PQR",
+            "Country": "Canada",
+            "YearOfCompletion": "2012"
+          }
+        ],
+        "EnglishScores": [
+          {
+            "ExamName": "TOEFL",
+            "ExamDate": "2021-11-15",
+            "ListeningScore": "95",
+            "ReadingScore": "88",
+            "WritingScore": "75",
+            "SpeakingScore": "90",
+            "OverallScore": "87"
+          }
+        ],
+        "IsWorkExp": false,
+        "WorkExperience": []
+      }
+    }
+  ]
+}

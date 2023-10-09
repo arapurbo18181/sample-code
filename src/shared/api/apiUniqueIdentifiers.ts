@@ -1,0 +1,18 @@
+export const UUIDs = {
+  TEAM_MEMBER: '/team-member',
+  TEAM_MEMBER_DETAILS: '/team-member-details',
+  TEAM_MEMBER_OVERVIEW: '/team-member-overview',
+  TEAM_MEMBER_ENQUIRY: '/team-member-enquiry',
+  TEAM_MEMBER_APPLICANT: '/team-member-applicant',
+  TEAM_MEMBER_CASES: '/team-member-case',
+  APPLICANT: '/applicant',
+  APPLICANT_TASKS: '/applicant-tasks',
+  APPLICANT_CASE_STATUS: '/applicant-case-status',
+  ENQUIRY: '/enquiry',
+  ENQUIRY_QUICK_CREATE: '/enquiry-quick-create',
+  ENQUIRY_ADVANCE_CREATE: '/enquiry-advance-create',
+  ENQUIRY_DETAILS: '/enquiry-details',
+  CASE: '/case',
+  TASK_TEMPLATES: '/task-templates',
+  TASKS_BY_ID: '/tasks-by-id',
+};
